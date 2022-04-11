@@ -7,11 +7,17 @@ API for geting data about the tv show Friends.
 Every episode represents:
 
 Year of production based on IMDB
+
 Season of the Friends show
+
 The title of the episode, starting with 'The one with ...'
+
 Duration of episode by minutes
-Summary of the episode in a few lines
+
+Summary of the episode in a few line
+
 Director of that specific episode
+
 IMDB rating of that episode
 
 ## Endpoints
