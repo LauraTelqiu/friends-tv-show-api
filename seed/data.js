@@ -4,7 +4,7 @@ import episodes from "./episodes.json" assert { type: "json" };
 
 const insertData = async () => {
   // reset database
-  db.dropDatabase();
+  await db.dropDatabase();
 
   // insert episodes into database
   await Episode.insertMany(episodes);
